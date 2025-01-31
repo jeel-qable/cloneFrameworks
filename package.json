@@ -1,0 +1,22 @@
+{
+  "name": "colpal_automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "export PROJECT='copb2b-en-chrome' && npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@playwright/test": "^1.49.0",
+    "axios": "^1.7.8",
+    "nodemailer": "^6.9.16",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/nodemailer": "^6.4.17"
+  }
+}
